@@ -1,6 +1,7 @@
 # nginx日志分割(log rotation)
 
 本文链接：https://blog.csdn.net/dreamer2020/article/details/53893356
+
 nginx没有内置日志分割功能，容易造成日志累积，文件越来越大。必须借助于外部命令或者工具来分割日志。
 
 本文介绍一种通过自定义脚本来分割日志的方法。
